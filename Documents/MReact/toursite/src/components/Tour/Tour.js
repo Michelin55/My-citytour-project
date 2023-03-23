@@ -20,7 +20,7 @@ export default class Tour extends Component {
         <article className="tour">
      <      div className="img-container"> 
             <img 
-            
+            width="200"
              src={img} alt="" />
          
             <span className="close-btn" onClick={()=> {removeTour(id);}}>
@@ -34,7 +34,7 @@ export default class Tour extends Component {
                 <h5> 
                 info  {" "}
                 <span onClick={this.handleInfo}>
-                    <i className="fas fas-caret-square-down"></i> 
+                    <i className="fas fa-caret-square-down"></i> 
                 </span>
                 </h5>
 
